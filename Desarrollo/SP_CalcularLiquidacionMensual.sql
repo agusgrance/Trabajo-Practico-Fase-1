@@ -1,6 +1,6 @@
 
 delimiter $$
-CREATE PROCEDURE CalcularLiquidacionMensual(IN cliente int,IN proyecto INT, IN mes INT,IN anio INT, USER int )
+CREATE PROCEDURE CalcularLiquidacionMensual(IN cliente int,IN proyecto INT, IN mes INT,IN anio INT,IN USER int )
 BEGIN 
 
 IF USER % 2 = 0
